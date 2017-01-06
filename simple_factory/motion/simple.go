@@ -4,7 +4,8 @@ import (
 	"fmt"
 )
 
-// Create package level factory method to simulate 'static' factory method
+// Create package level factory method to simulate 'static' factory method.
+//  static factory pattern violate the open-close principle (OCP).
 func Create(s string) ICard {
 	switch s {
 	case "8338":
@@ -16,7 +17,8 @@ func Create(s string) ICard {
 	}
 }
 
-// ICard motion card interface
+// ICard motion card interface.
+//  we prefer composition than inheritance.
 type ICard interface {
 	// GetName get card number
 	GetName() string

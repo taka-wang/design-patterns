@@ -7,8 +7,11 @@ import (
 )
 
 func main() {
+	// dynamic slice
 	//var cards []motion.Card
 	//cards = make([]motion.Card, 2)
+
+	// fix array
 	var cards [2]motion.ICard
 	cards[0] = motion.Create("8338")
 	cards[1] = motion.Create("7856")
