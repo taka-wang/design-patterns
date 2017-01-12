@@ -8,7 +8,7 @@
 
 - Ensure a class has **only one instance**, and provide a **global point** of access to it. [GoF] 
 - Encapsulated "just-in-time initialization" or "initialization on first use". [[Source Making](https://sourcemaking.com/design_patterns/singleton)]
-- Lazy initialization and global point of access. [[Source Making](https://sourcemaking.com/design_patterns/singleton)]
+- In short, lazy initialization and global point of access. [[Source Making](https://sourcemaking.com/design_patterns/singleton)]
 
 ---
 
