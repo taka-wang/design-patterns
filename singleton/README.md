@@ -113,6 +113,27 @@ public sealed class Singleton
 }
 ```
 
+- .NET 4.0 (or higher)
+
+```csharp
+public class Singleton
+{
+      private static readonly Lazy<Singleton> lazy = new Lazy<Singleton>(() => new Singleton());
+
+      public static Singleton Instance
+      {
+            get
+            {
+                  return lazy.Value;
+            }
+      }
+
+      private Singleton()
+      {
+      }
+}
+```
+
 ## Structure
 
 ![](class.png)
@@ -133,3 +154,4 @@ public sealed class Singleton
 - [Implementing the Singleton Pattern in C#](http://csharpindepth.com/Articles/General/Singleton.aspx)
 - [Go言語での構造體実裝パターン](http://blog.monochromegane.com/blog/2014/03/23/struct-implementaion-patterns-in-golang/)
 - [Singleton Pattern in Go](http://marcio.io/2015/07/singleton-pattern-in-go/)
+- [Double-checked locking](https://en.wikipedia.org/wiki/Double-checked_locking)
