@@ -50,9 +50,34 @@ Refer to [[Source Making](https://sourcemaking.com/design_patterns/singleton)].
 - 不是 Thread safe 的
 - 常被誤用為 Global Variable 的替代品
 
-## Thread Safe implementation
+## Implementation Examples
 
-通常用 Double-Check Locking 技巧解決
+```csharp
+// C# example from https://msdn.microsoft.com/en-us/library/ff650316.aspx
+
+using System;
+
+public class Singleton
+{
+   private static Singleton instance;
+
+   private Singleton() {}
+
+   public static Singleton Instance
+   {
+      get 
+      {
+         if (instance == null) // not thread safe
+         {
+            instance = new Singleton();
+         }
+         return instance;
+      }
+   }
+}
+```
+
+- 通常用 Double-Check Locking 技巧解決 Thread safe 問題
 
 ```csharp
 // C# example from https://msdn.microsoft.com/en-us/library/ff650316.aspx
