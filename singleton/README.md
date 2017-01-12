@@ -52,6 +52,8 @@ Refer to [[Source Making](https://sourcemaking.com/design_patterns/singleton)].
 
 ## Implementation Examples
 
+Please refer to [Implementing the Singleton Pattern in C#](http://csharpindepth.com/Articles/General/Singleton.aspx) for more practical examples.
+
 ```csharp
 // C# example from https://msdn.microsoft.com/en-us/library/ff650316.aspx
 
@@ -127,3 +129,4 @@ public sealed class Singleton
 - [Why Singletons are Evil](https://blogs.msdn.microsoft.com/scottdensmore/2004/05/25/why-singletons-are-evil/)
 - [Use your singletons wisely - Know when to use singletons, and when to leave them behind](http://www.ibm.com/developerworks/webservices/library/co-single/index.html)
 - [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
+- [Implementing the Singleton Pattern in C#](http://csharpindepth.com/Articles/General/Singleton.aspx)
