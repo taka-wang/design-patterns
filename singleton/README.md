@@ -52,7 +52,9 @@ Refer to [[Source Making](https://sourcemaking.com/design_patterns/singleton)].
 
 ## Implementation Examples
 
-Please refer to [Implementing the Singleton Pattern in C#](http://csharpindepth.com/Articles/General/Singleton.aspx) for more practical examples.
+- Please refer to [Implementing the Singleton Pattern in C#](http://csharpindepth.com/Articles/General/Singleton.aspx) for more practical examples in C#.
+- Please refer to [Singleton Pattern in Go](http://marcio.io/2015/07/singleton-pattern-in-go/) for more practical examples in goalng.
+
 
 ```csharp
 // C# example from https://msdn.microsoft.com/en-us/library/ff650316.aspx
@@ -105,7 +107,6 @@ public sealed class Singleton
                   instance = new Singleton();
             }
          }
-
          return instance;
       }
    }
@@ -130,3 +131,5 @@ public sealed class Singleton
 - [Use your singletons wisely - Know when to use singletons, and when to leave them behind](http://www.ibm.com/developerworks/webservices/library/co-single/index.html)
 - [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 - [Implementing the Singleton Pattern in C#](http://csharpindepth.com/Articles/General/Singleton.aspx)
+- [Go言語での構造體実裝パターン](http://blog.monochromegane.com/blog/2014/03/23/struct-implementaion-patterns-in-golang/)
+- [Singleton Pattern in Go](http://marcio.io/2015/07/singleton-pattern-in-go/)

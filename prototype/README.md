@@ -31,3 +31,4 @@ Declare an abstract base class that specifies a pure virtual "clone" method, and
 - [dofactory](http://www.dofactory.com/net/prototype-design-pattern)
 - [GoF] Gamma, Helm, Johnson, and Vlissides. Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley, 1995.
 - [Design Patterns - Prototype Pattern](https://www.tutorialspoint.com/design_pattern/prototype_pattern.htm)
+- [go design pattern](https://github.com/monochromegane/go_design_pattern/blob/master/prototype/prototype.go)
