@@ -67,7 +67,7 @@ public class Singleton
 
    public static Singleton Instance
    {
-      get 
+      get
       {
          if (instance == null) // not thread safe
          {
@@ -95,13 +95,13 @@ public sealed class Singleton
 
    public static Singleton Instance
    {
-      get 
+      get
       {
-         if (instance == null) 
+         if (instance == null)
          {
-            lock (syncRoot) 
+            lock (syncRoot)
             {
-               if (instance == null) 
+               if (instance == null)
                   instance = new Singleton();
             }
          }
