@@ -92,6 +92,8 @@ if check() { // Lock hint
 It’s _**sooo easy**_ to show `codeSamples();` in your presentations. Deckset applies syntax highlighting and scales the type size so it always looks great.
 
 ---
+## Fluent API
+---
 
 ### Hello World!
 

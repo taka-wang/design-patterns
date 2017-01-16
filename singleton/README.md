@@ -155,3 +155,4 @@ public class Singleton
 - [Go言語での構造體実裝パターン](http://blog.monochromegane.com/blog/2014/03/23/struct-implementaion-patterns-in-golang/)
 - [Singleton Pattern in Go](http://marcio.io/2015/07/singleton-pattern-in-go/)
 - [Double-checked locking](https://en.wikipedia.org/wiki/Double-checked_locking)
+- [Lazy initialization](https://en.wikipedia.org/wiki/Lazy_initialization)
