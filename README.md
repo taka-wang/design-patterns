@@ -1,4 +1,4 @@
-# go-design-pattern
+# Design Patterns
 
 [![Build Status](https://travis-ci.org/taka-wang/go-design-pattern.svg?branch=master)](https://travis-ci.org/taka-wang/go-design-pattern)
 
@@ -16,7 +16,7 @@
 
 #### Not in GoF
 
-- Object Pool
+- [Object Pool](object_pool/README.md)
 - [Simple Factory](simple_factory/README.md)
 
 ### Structural Patterns
@@ -47,7 +47,7 @@
 - Memento
 - Observer
 - State
-- Strategy
+- [Strategy](strategy/README.md)
 - Template method
 - Visitor
 
